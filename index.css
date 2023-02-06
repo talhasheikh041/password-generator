@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Karla:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Karla:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.main-container {
+    width: 550px;
+    height: 550px;
+    background: #1F2937;
+    padding-left: 52px;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+}
+
+.green-text {
+    color: #4ADF86;
+    display: block;
+}
+
+.subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D5D4D8;
+}
+
+#generate-btn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #10B981;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    border: none;
+    padding: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.length-container {
+    display: flex;
+    margin-top: 15px;
+}
+
+#length-text {
+    font-family: "Inter";
+    
+}
+
+.length-btns {
+    border-radius: 100%;
+    border: 1px solid white;
+    color: white;
+    width: 20px;
+    height: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    background: transparent;
+}
+
+.length-btns:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+#increment-btn {
+    margin-left: 10px;
+}
+
+#decrement-btn {
+    margin-left: 3px;
+}
+
+hr {
+    border: 1px solid #2F3E53;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.password-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.password {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #55F991;
+    background: #273549;
+    border-radius: 6px;
+    border: none;
+    padding: 5px;
+    width: 210px;
+    cursor: pointer;
+}
+
+.password:hover {
+    background: black;
+}
+
